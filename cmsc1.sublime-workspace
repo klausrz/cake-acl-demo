@@ -1,0 +1,2103 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Pe",
+				"Permission"
+			],
+			[
+				"aro",
+				"aro_aco_id"
+			],
+			[
+				"Per",
+				"PermissionValidity"
+			],
+			[
+				"Permi",
+				"Permission"
+			],
+			[
+				"post",
+				"posts"
+			],
+			[
+				"permi",
+				"permissionId"
+			],
+			[
+				"Permis",
+				"PermissionValidity"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"Lm",
+				"LmtPageLink"
+			],
+			[
+				"LinkMan",
+				"link_managements"
+			],
+			[
+				"inpu",
+				"inputLinkedUrl"
+			],
+			[
+				"inpt",
+				"inputLinkedUrl"
+			],
+			[
+				"input",
+				"inputUrl"
+			],
+			[
+				"Lmt",
+				"LmtPageLink"
+			],
+			[
+				"toal",
+				"total_pages"
+			],
+			[
+				"Lmtos",
+				"LmtOseResultPage"
+			],
+			[
+				"lmt_pag",
+				"lmt_page_links"
+			],
+			[
+				"LmtP",
+				"LmtPage"
+			],
+			[
+				"lmtpa",
+				"LmtPage"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"ia",
+				"imageTopPath"
+			],
+			[
+				"im",
+				"imageTopPath"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"repo",
+				"report_block"
+			],
+			[
+				"patn",
+				"pattern_type"
+			],
+			[
+				"pattern",
+				"pattern_type"
+			],
+			[
+				"patt",
+				"pattern_type"
+			],
+			[
+				"blc",
+				"block_type"
+			],
+			[
+				"block",
+				"block_type"
+			],
+			[
+				"list_block",
+				"list_block_id"
+			],
+			[
+				"delete",
+				"deleteMainContent"
+			],
+			[
+				"delte",
+				"deleteMainContent"
+			],
+			[
+				"admin_event",
+				"admin_event_report_list"
+			],
+			[
+				"row",
+				"rows_per_page"
+			],
+			[
+				"total",
+				"total_pages"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"curre",
+				"currentPage"
+			],
+			[
+				"admin_even",
+				"admin_event_report_list"
+			],
+			[
+				"curren",
+				"currentPage"
+			],
+			[
+				"service_eve",
+				"service_event_demo"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/Controller/TestsController.php",
+			"settings":
+			{
+				"buffer_size": 709,
+				"line_ending": "Windows",
+				"name": "<?php"
+			}
+		},
+		{
+			"file": "app/View/Tests/index.ctp",
+			"settings":
+			{
+				"buffer_size": 103,
+				"line_ending": "Windows",
+				"name": "test - index"
+			}
+		},
+		{
+			"file": "app/Controller/Component/CmsAclComponent.php",
+			"settings":
+			{
+				"buffer_size": 1896,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/View/Helper/AccessHelper.php",
+			"settings":
+			{
+				"buffer_size": 890,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Controller/Component/AccessComponent.php",
+			"settings":
+			{
+				"buffer_size": 922,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Controller/UsersController.php",
+			"settings":
+			{
+				"buffer_size": 4026,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/Cake/Model/Permission.php",
+			"settings":
+			{
+				"buffer_size": 6540,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/Cake/Controller/Component/AclComponent.php",
+			"settings":
+			{
+				"buffer_size": 6599,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/Cake/Model/AclNode.php",
+			"settings":
+			{
+				"buffer_size": 5384,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/Cake/Controller/Component/Acl/DbAcl.php",
+			"settings":
+			{
+				"buffer_size": 5194,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/Cake/Controller/Component/Acl/AclInterface.php",
+			"settings":
+			{
+				"buffer_size": 2286,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Model/PermissionValidity.php",
+			"settings":
+			{
+				"buffer_size": 775,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Controller/AppController.php",
+			"settings":
+			{
+				"buffer_size": 2148,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/K/cmsc1/lib/Cake/Controller/Component/AuthComponent.php",
+		"/K/cmsc1/app/View/Helper/AppHelper.php",
+		"/K/cmsc1/app/Controller/Component/CmsAclComponent.php",
+		"/C/Users/dangndh/Desktop/CmsAclComponent.php",
+		"/K/cmsc1/lib/Cake/Test/test_app/Plugin/TestPlugin/Controller/TestsController.php",
+		"/K/cmsc1/lib/Cake/Model/AclNode.php",
+		"/K/cmsc1/lib/Cake/Model/Behavior/AclBehavior.php",
+		"/K/cmsc1/app/Controller/UsersController.php",
+		"/K/cmsc1/app/Model/User.php",
+		"/K/cmsc1/app/Config/database.php",
+		"/K/cmsc1/app/Controller/AppController.php",
+		"/K/cmsc1/app/Controller/PostsController.php",
+		"/K/cmsc1/app/Config/routes.php",
+		"/K/cmsc1/app/Config/core.php",
+		"/K/cmsc1/app/Model/Post.php",
+		"/K/cmsc1/app/Controller/TestsController.php",
+		"/K/cmsc1/lib/Cake/Controller/Component/AclComponent.php",
+		"/K/cmsc1/app/Controller/GroupsController.php",
+		"/K/cmsc1/app/Model/Group.php",
+		"/K/cmsc1/lib/Cake/Model/Permission.php",
+		"/K/cmsc1/lib/Cake/Controller/Component/Acl/DbAcl.php",
+		"/K/cmsc1/app/Model/PermissionValidity.php",
+		"/K/cmsc1/lib/Cake/Utility/ClassRegistry.php",
+		"/K/cmsc1/app/View/Users/login.ctp",
+		"/K/cmsc1/app/Config/bootstrap.php",
+		"/K/cmsc1/lib/Cake/Controller/CakeErrorController.php",
+		"/K/cmsc1/app/View/Users/index.ctp",
+		"/K/cmsc1/app/View/Users/edit.ctp",
+		"/K/cmsc1/lib/Cake/Controller/Component/Acl/AclInterface.php",
+		"/K/cmsc/app/Controller/TestController.php",
+		"/K/cmsc/app/View/Test/index.ctp",
+		"/K/cmsc/app/Model/User.php",
+		"/K/cmsc/app/Controller/DepartmentsController.php",
+		"/K/cmsc/app/Model/Department.php",
+		"/K/cmsc/app/Controller/UsersController.php",
+		"/K/cmsc/lib/Cake/Controller/Component/AclComponent.php",
+		"/K/cmsc/lib/Cake/Controller/Component/AuthComponent.php",
+		"/K/cmsc/lib/Cake/Model/AclNode.php",
+		"/K/cmsc/app/Model/Group.php",
+		"/K/cmsc/app/View/Users/edit.ctp",
+		"/K/cmsc/lib/Cake/Controller/Component/Acl/AclInterface.php",
+		"/K/cmsc/app/View/Users/add.ctp",
+		"/K/cmsc/app/Config/bootstrap.php",
+		"/K/cmsc/app/Controller/ReportsController.php",
+		"/K/cmsc/app/View/Layouts/default.ctp",
+		"/K/cmsc/app/Controller/AppController.php",
+		"/K/cmsc/app/Controller/ReportController.php",
+		"/K/cmsc/app/View/User/login.ctp",
+		"/K/cmsc/app/Controller/GroupsController.php",
+		"/K/cmsc/app/Controller/UserController.php",
+		"/K/cmsc/app/View/User/register.ctp",
+		"/K/cmsc/lib/Cake/Model/Behavior/AclBehavior.php",
+		"/K/cmsc/app/Config/core.php",
+		"/K/cmsc/app/View/Report/index.ctp",
+		"/K/cmsc/app/Model/DepartmentManager.php",
+		"/K/cmsc/app/Config/database.php",
+		"/K/seotool/app/Lib/simple_html_dom.php",
+		"/K/seotool/app/Controller/LinkManagementsController.php",
+		"/K/seotool/app/Controller/TestsController.php",
+		"/K/seotool/lib/Cake/Controller/LmtAppController.php",
+		"/K/seotool/app/View/LinkManagements/listlink.ctp",
+		"/K/seotool/app/View/Tests/index.ctp",
+		"/K/seotool/app/View/LinkManagements/index.ctp",
+		"/K/seotool/app/Model/LmtOseResult.php",
+		"/K/seotool/app/Model/LmtPageLink.php",
+		"/K/seotool/app/Model/LmtPage.php",
+		"/K/seotool/app/Model/LmtDomain.php",
+		"/K/seotool/app/Controller/LmtDomainsController.php",
+		"/K/seotool/app/Console/Command/UpdateLinkStatusShell.php",
+		"/K/seotool/lib/Cake/View/Layouts/default.ctp",
+		"/K/seotool/lib/Cake/Model/Datasource/DataSource.php",
+		"/K/seotool/lib/Cake/Core/Object.php",
+		"/K/seotool/lib/Cake/Model/Model.php",
+		"/K/seotool/app/View/LinkManagements/list_link.ctp",
+		"/K/seotool/lib/Cake/Controller/Component/PaginatorComponent.php",
+		"/K/seotool/app/Controller/TestController.php",
+		"/K/seotool/app/View/Test/index.ctp",
+		"/K/seotool/lib/Cake/Model/AppModel.php",
+		"/K/seotool/lib/Cake/Model/ConnectionManager.php",
+		"/K/seotool/app/View/Helper/csv.php",
+		"/K/seotool/app/View/LinkManagements/download_page.ctp",
+		"/K/seotool/app/Config/core.php",
+		"/K/seotool/lib/Cake/Controller/Component/SessionComponent.php",
+		"/K/seotool/app/Console/Command/HelloShell.php",
+		"/K/seotool/app/Console/Command/UpdateLinkStatus.php",
+		"/K/seotool/app/Config/database.php",
+		"/K/agent-n2/app/action/Admin/Event/Report/Input.php",
+		"/K/agent-n2/app/view/Admin/Event/Report/Input.php",
+		"/K/agent-n2/app/action/Admin/Event/Report/RegistReport.php",
+		"/K/agent-n2/template/ja_JP/admin/event/report/input.tpl",
+		"/K/agent-n2/template/ja_JP/admin/event/report/pattern.tpl",
+		"/K/agent-n2/app/action/Admin/Event/Report/RegistBlock.php",
+		"/K/agent-n2/app/action/Admin/Event/Report/RegistPattern.php",
+		"/K/agent-n2/app/view/Admin/Event/Report/Pattern.php",
+		"/K/agent-n2/app/Lv_EventManager.php",
+		"/K/agent-n2/app/action/Popup/Report.php",
+		"/K/agent-n2/app/view/Service/Event/Report.php",
+		"/K/agent-n2/lib/Ethna/class/ActionForm.php",
+		"/K/agent-n2/app/action/Admin/Event/Report/List.php",
+		"/K/agent-n2/app/view/Admin/Event/Report/List.php",
+		"/K/agent-n2/app/action/Admin/Event/Report/DeleteSubContent.php",
+		"/K/agent-n2/app/view/Admin/Event/Report/DeleteSubContent.php",
+		"/K/agent-n2/www/js/popup.js",
+		"/D/cms/agent/app/action/Admin/Event/Report/Input.php",
+		"/D/cms/agent/template/ja_JP/admin/event/report/input.tpl",
+		"/D/cms/agent/app/action/Admin/Event/Report/RegistReport.php",
+		"/D/cms/agent/template/ja_JP/admin/event/report/all.tpl",
+		"/D/cms/agent/www/css/admin.css",
+		"/D/cms/agent/app/action/Service/Event/Demo.php",
+		"/D/cms/agent/ag.sublime-workspace",
+		"/D/cms/agent/app/action/Admin/Event/Report/RegistPattern.php",
+		"/D/cms/agent/app/Lv_NewsManager.php",
+		"/D/cms/agent/app/Lv_EventManager.php",
+		"/D/cms/agent/lib/Ethna/class/ActionClass.php",
+		"/D/cms/agent/lib/Ethna/class/Backend.php",
+		"/D/cms/agent/app/Lv_TestingManager.php",
+		"/D/cms/agent/lib/Ethna/class/Session.php",
+		"/D/cms/agent/template/ja_JP/admin/event/report/list.tpl",
+		"/D/cms/agent/app/view/Admin/Event/Report/List.php",
+		"/D/cms/agent/app/action/Admin/Event/Report/List.php",
+		"/D/cms/agent/template/ja_JP/popup/report/document.tpl",
+		"/D/cms/agent/app/view/Admin/Event/Report/ListPattern.php",
+		"/D/cms/agent/app/action/Admin/Event/Report/SaveImage.php",
+		"/D/cms/agent/app/view/Admin/Event/Report/Input.php",
+		"/D/cms/agent/app/Lv_Controller.php",
+		"/D/cms/agent/www/index.php",
+		"/D/cms/agent/app/view/Admin/Event/Report/Pattern.php",
+		"/D/cms/agent/template/ja_JP/admin/event/report/pattern.tpl"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"K:\\cmsc1",
+			"K:\\cmsc",
+			"K:\\seotool\\app",
+			"K:\\seotool",
+			"K:\\seotool\\app",
+			"K:\\seotool",
+			"K:\\agent-n2",
+			"K:\\agent-n2\\app",
+			"K:\\agent-n2\\app\\action\\Admin\\Event\\Report",
+			"D:\\cms\\agent",
+			"D:\\cms\\agent\\template",
+			"D:\\cms\\agent",
+			"D:\\cms\\agent\\template",
+			"D:\\cms\\agent",
+			"D:\\cms\\agent\\www\\js",
+			"D:\\cms\\agent"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$this->Permission",
+			"Class Model",
+			"AppModel",
+			"public",
+			"debug",
+			"class Acl",
+			"debug",
+			"salt",
+			"plugin",
+			"database",
+			"file_get_conte",
+			"datasource",
+			"jquery",
+			"getdatasou",
+			"join",
+			"bootstrap.css",
+			"flash",
+			"bootstrap",
+			"debug",
+			"whitelist",
+			"csv",
+			"helper",
+			"simple_html_dom.php",
+			"LmtPageLink",
+			"paginate",
+			"', ",
+			"LmtPageLinks",
+			"setInputSearchUrl",
+			"setSortConditions",
+			"paginate",
+			"setPages",
+			"setInputSearchUrl",
+			"setSortConditions",
+			"setSortConditions\\",
+			"block_type",
+			"image_alt",
+			"image_pattern_alt",
+			"image_pattern",
+			"$_GET",
+			"image_pattern",
+			"alt",
+			"content",
+			"pattern_type",
+			" =",
+			"            $",
+			"$_GET",
+			"var_type_file",
+			"image",
+			"image_patt",
+			"delete",
+			"削除します。本当によろしいですか",
+			"Are you sure",
+			"deletemai",
+			"rel=\"deleteSubContent\"",
+			"deleteSubContent",
+			"updateEventReportBlock",
+			"are you sure",
+			"order",
+			"記述",
+			"タイトル",
+			"geteventreportde",
+			"delete",
+			"news_columns",
+			"save_gallery",
+			"gallery_li",
+			"loadListPattern",
+			"loadlist",
+			"gallery_link",
+			"cancel_f",
+			"img",
+			"Lv_Form_AdminEventReportDeleteEventReportDocument",
+			"expand_tabs",
+			"copy",
+			"gc_maxlifetime",
+			"cache_expire",
+			"$_SESSION['timeout']",
+			"getAdministrator",
+			"checkAdminPassword",
+			"class Lv_AdminLoginActionClass",
+			"Lv_AdminLoginActionClass",
+			"Lv_MessageManager::UPDATE_SUCCESS",
+			"no item",
+			"no  item",
+			"writeLog",
+			"are you sure",
+			"report",
+			"are you sure",
+			"mine",
+			"showPattern",
+			">>",
+			"<<<",
+			"mine",
+			"patter_type",
+			"pattern_type",
+			"success",
+			"succe",
+			"Lv_AdminLoginActionClass",
+			"popup/report",
+			"<<<SCRIPT",
+			"パターン種類",
+			"image",
+			"idth of the image shoul",
+			"getEventReportPatternByListBlockId",
+			"are you sure",
+			"no item",
+			"パターン一覧",
+			"session",
+			"var_dum",
+			"var_du",
+			"updateeventreportblo",
+			"success_even",
+			"update",
+			"var_dump",
+			"1363162037",
+			" url: '//jquery-file-upload.",
+			"file",
+			"\n           	",
+			"dsn",
+			"debug",
+			"admin_url",
+			"report_document",
+			"smarty",
+			"tpl",
+			"this->session",
+			"getAllEventReport",
+			"delete",
+			"$sth->execute",
+			"table_event_report"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/Controller/TestsController.php",
+					"settings":
+					{
+						"buffer_size": 709,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "<?php",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/View/Tests/index.ctp",
+					"settings":
+					{
+						"buffer_size": 103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "test - index",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Controller/Component/CmsAclComponent.php",
+					"settings":
+					{
+						"buffer_size": 1896,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 422.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/View/Helper/AccessHelper.php",
+					"settings":
+					{
+						"buffer_size": 890,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 285.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/Controller/Component/AccessComponent.php",
+					"settings":
+					{
+						"buffer_size": 922,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								907,
+								907
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/Controller/UsersController.php",
+					"settings":
+					{
+						"buffer_size": 4026,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 380.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "lib/Cake/Model/Permission.php",
+					"settings":
+					{
+						"buffer_size": 6540,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1900.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "lib/Cake/Controller/Component/AclComponent.php",
+					"settings":
+					{
+						"buffer_size": 6599,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 644.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "lib/Cake/Model/AclNode.php",
+					"settings":
+					{
+						"buffer_size": 5384,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 766.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "lib/Cake/Controller/Component/Acl/DbAcl.php",
+					"settings":
+					{
+						"buffer_size": 5194,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 380.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "lib/Cake/Controller/Component/Acl/AclInterface.php",
+					"settings":
+					{
+						"buffer_size": 2286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 665.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/Model/PermissionValidity.php",
+					"settings":
+					{
+						"buffer_size": 775,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 69.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app/Controller/AppController.php",
+					"settings":
+					{
+						"buffer_size": 2148,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 539.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"appcontr",
+				"app/Controller/AppController.php"
+			],
+			[
+				"authcom",
+				"lib/Cake/Controller/Component/AuthComponent.php"
+			],
+			[
+				"apphh",
+				"app/View/Helper/AppHelper.php"
+			],
+			[
+				"usersco",
+				"app/Controller/UsersController.php"
+			],
+			[
+				"cmsacl",
+				"app/Controller/Component/CmsAclComponent.php"
+			],
+			[
+				"cmsac",
+				"app/Controller/Component/CmsAclComponent.php"
+			],
+			[
+				"aclnode",
+				"lib/Cake/Model/AclNode.php"
+			],
+			[
+				"testsco",
+				"lib/Cake/Test/test_app/Plugin/TestPlugin/Controller/TestsController.php"
+			],
+			[
+				"aclinte",
+				"lib/Cake/Controller/Component/Acl/AclInterface.php"
+			],
+			[
+				"alcom",
+				"lib/Cake/Controller/Component/AclComponent.php"
+			],
+			[
+				"postco",
+				"app/Controller/PostsController.php"
+			],
+			[
+				"appcon",
+				"app/Controller/AppController.php"
+			],
+			[
+				"database",
+				"app/Config/database.php"
+			],
+			[
+				"model/user",
+				"app/Model/User.php"
+			],
+			[
+				"usercon",
+				"app/Controller/UsersController.php"
+			],
+			[
+				"model/grou",
+				"app/Model/Group.php"
+			],
+			[
+				"groupsco",
+				"app/Controller/GroupsController.php"
+			],
+			[
+				"permissi",
+				"lib/Cake/Model/Permission.php"
+			],
+			[
+				"test",
+				"app/Controller/TestsController.php"
+			],
+			[
+				"cakeerror",
+				"lib/Cake/Controller/CakeErrorController.php"
+			],
+			[
+				"testsc",
+				"app/Controller/TestsController.php"
+			],
+			[
+				"appco",
+				"app/Controller/AppController.php"
+			],
+			[
+				"testscon",
+				"app/Controller/TestsController.php"
+			],
+			[
+				"postsco",
+				"app/Controller/PostsController.php"
+			],
+			[
+				"model/gro",
+				"app/Model/Group.php"
+			],
+			[
+				"model/us",
+				"app/Model/User.php"
+			],
+			[
+				"userscon",
+				"app/Controller/UsersController.php"
+			],
+			[
+				"boot",
+				"app/Config/bootstrap.php"
+			],
+			[
+				"core",
+				"app/Config/core.php"
+			],
+			[
+				"authcompo",
+				"lib/Cake/Controller/Component/AuthComponent.php"
+			],
+			[
+				"boo",
+				"app/Config/bootstrap.php"
+			],
+			[
+				"model/gr",
+				"app/Model/Group.php"
+			],
+			[
+				"depar",
+				"app/Model/Department.php"
+			],
+			[
+				"user",
+				"app/Model/User.php"
+			],
+			[
+				"tesco",
+				"app/Controller/TestController.php"
+			],
+			[
+				"aclcom",
+				"lib/Cake/Controller/Component/AclComponent.php"
+			],
+			[
+				"reportsco",
+				"app/Controller/ReportsController.php"
+			],
+			[
+				"boots",
+				"app/Config/bootstrap.php"
+			],
+			[
+				"aclbeha",
+				"lib/Cake/Model/Behavior/AclBehavior.php"
+			],
+			[
+				"userco",
+				"app/Controller/UserController.php"
+			],
+			[
+				"testcontr",
+				"app/Controller/TestController.php"
+			],
+			[
+				"core.php",
+				"app/Config/core.php"
+			],
+			[
+				"core.",
+				"app/Config/core.php"
+			],
+			[
+				"linkmana",
+				"app/Controller/LinkManagementsController.php"
+			],
+			[
+				"model/pagel",
+				"app/Model/LmtPageLink.php"
+			],
+			[
+				"lmtap",
+				"lib/Cake/Controller/LmtAppController.php"
+			],
+			[
+				"updatelink",
+				"app/Console/Command/UpdateLinkStatusShell.php"
+			],
+			[
+				"listli",
+				"app/View/LinkManagements/listlink.ctp"
+			],
+			[
+				"object",
+				"lib/Cake/Core/Object.php"
+			],
+			[
+				"datasour",
+				"lib/Cake/Model/Datasource/DataSource.php"
+			],
+			[
+				"model",
+				"lib/Cake/Model/Model.php"
+			],
+			[
+				"linkman",
+				"app/Controller/LinkManagementsController.php"
+			],
+			[
+				"domainc",
+				"app/Controller/LmtDomainsController.php"
+			],
+			[
+				"pagina",
+				"lib/Cake/Controller/Component/PaginatorComponent.php"
+			],
+			[
+				"datasou",
+				"lib/Cake/Model/Datasource/DataSource.php"
+			],
+			[
+				"connec",
+				"lib/Cake/Model/ConnectionManager.php"
+			],
+			[
+				"connectio",
+				"lib/Cake/Model/ConnectionManager.php"
+			],
+			[
+				"appmode",
+				"lib/Cake/Model/AppModel.php"
+			],
+			[
+				"paginate",
+				"lib/Cake/Controller/Component/PaginatorComponent.php"
+			],
+			[
+				"model/lmtose",
+				"app/Model/LmtOseResult.php"
+			],
+			[
+				"domaincon",
+				"app/Controller/LmtDomainsController.php"
+			],
+			[
+				"sessioncomp",
+				"lib/Cake/Controller/Component/SessionComponent.php"
+			],
+			[
+				"model/domai",
+				"app/Model/LmtDomain.php"
+			],
+			[
+				"download_pa",
+				"app/View/LinkManagements/download_page.ctp"
+			],
+			[
+				"paginator",
+				"lib/Cake/Controller/Component/PaginatorComponent.php"
+			],
+			[
+				"lmtappcot",
+				"lib/Cake/Controller/LmtAppController.php"
+			],
+			[
+				"lmtapp",
+				"lib/Cake/Controller/LmtAppController.php"
+			],
+			[
+				"event/report/input",
+				"template/ja_JP/admin/event/report/input.tpl"
+			],
+			[
+				"registreport",
+				"app/action/Admin/Event/Report/RegistReport.php"
+			],
+			[
+				"registrepr",
+				"app/action/Admin/Event/Report/RegistReport.php"
+			],
+			[
+				"view/admin/event/report/pa",
+				"app/view/Admin/Event/Report/Pattern.php"
+			],
+			[
+				"view/admin/event/report/pat",
+				"app/view/Admin/Event/Report/Pattern.php"
+			],
+			[
+				"view/admin/event/re",
+				"app/view/Admin/Event/Report/Input.php"
+			],
+			[
+				"eventmana",
+				"app/Lv_EventManager.php"
+			],
+			[
+				"actionfo",
+				"lib/Ethna/class/ActionForm.php"
+			],
+			[
+				"pattern.tpl",
+				"template/ja_JP/admin/event/report/pattern.tpl"
+			],
+			[
+				"registpatte",
+				"app/action/Admin/Event/Report/RegistPattern.php"
+			],
+			[
+				"registblock",
+				"app/action/Admin/Event/Report/RegistBlock.php"
+			],
+			[
+				"event/report/list",
+				"app/view/Admin/Event/Report/List.php"
+			],
+			[
+				"event/report/list.php",
+				"app/action/Admin/Event/Report/List.php"
+			],
+			[
+				"popup.js",
+				"www/js/popup.js"
+			],
+			[
+				"demo.",
+				"app/action/Service/Event/Demo.php"
+			],
+			[
+				"admin.css",
+				"www/css/admin.css"
+			],
+			[
+				"event/report/al",
+				"template/ja_JP/admin/event/report/all.tpl"
+			],
+			[
+				"registrepor",
+				"app/action/Admin/Event/Report/RegistReport.php"
+			],
+			[
+				"session",
+				"lib/Ethna/class/Session.php"
+			],
+			[
+				"testingma",
+				"app/Lv_TestingManager.php"
+			],
+			[
+				"view/event/report/li",
+				"app/view/Admin/Event/Report/List.php"
+			],
+			[
+				"action/event/report/li",
+				"app/action/Admin/Event/Report/List.php"
+			],
+			[
+				"ethnaback",
+				"lib/Ethna/class/Backend.php"
+			],
+			[
+				"actioncl",
+				"lib/Ethna/class/ActionClass.php"
+			],
+			[
+				"dem",
+				"app/action/Service/Event/Demo.php"
+			],
+			[
+				"reportdocu",
+				"template/ja_JP/popup/report/document.tpl"
+			],
+			[
+				"classaction",
+				"lib/Ethna/class/ActionClass.php"
+			],
+			[
+				"lv_contro",
+				"app/Lv_Controller.php"
+			],
+			[
+				"index.php",
+				"www/index.php"
+			],
+			[
+				"view/admin/event/report/list",
+				"app/view/Admin/Event/Report/ListPattern.php"
+			],
+			[
+				"view/admin/event/report/in",
+				"app/view/Admin/Event/Report/Input.php"
+			],
+			[
+				"admin/event/report/pattern.t",
+				"template/ja_JP/admin/event/report/pattern.tpl"
+			],
+			[
+				"registpatt",
+				"app/action/Admin/Event/Report/RegistPattern.php"
+			],
+			[
+				"view/admin/event/repo",
+				"app/view/Admin/Event/Report/Input.php"
+			],
+			[
+				"view/admin/event/report/li",
+				"app/view/Admin/Event/Report/List.php"
+			],
+			[
+				"registre",
+				"app/action/Admin/Event/Report/RegistReport.php"
+			],
+			[
+				"event/report/inp",
+				"template/ja_JP/admin/event/report/input.tpl"
+			],
+			[
+				"messa",
+				"app/Lv_MessageManager.php"
+			],
+			[
+				"message",
+				"app/Lv_MessageManager.php"
+			],
+			[
+				"view/admin/event/report",
+				"app/view/Admin/Event/Report/DeletePattern.php"
+			],
+			[
+				"admin/event/report/pat",
+				"template/ja_JP/admin/event/report/pattern.tpl"
+			],
+			[
+				"report/input",
+				"template/ja_JP/admin/event/report/input.tpl"
+			],
+			[
+				"report/list.tp",
+				"template/ja_JP/admin/event/report/list.tpl"
+			],
+			[
+				"report/list",
+				"app/view/Admin/Event/Report/List.php"
+			],
+			[
+				"registrepo",
+				"app/action/Admin/Event/Report/RegistReport.php"
+			],
+			[
+				"view/admin/event/report/de",
+				"app/view/Admin/Event/Report/DeleteMainContent.php"
+			],
+			[
+				"lv_event",
+				"app/Lv_EventManager.php"
+			],
+			[
+				"registblo",
+				"app/action/Admin/Event/Report/RegistBlock.php"
+			],
+			[
+				"admincommon",
+				"app/Lv_AdminCommon.php"
+			],
+			[
+				"registpat",
+				"app/action/Admin/Event/Report/RegistPattern.php"
+			],
+			[
+				"report.tpl",
+				"template/ja_JP/popup/report/report.tpl"
+			],
+			[
+				"view/popup",
+				"app/view/Popup/ReportDocument.php"
+			],
+			[
+				"registd",
+				"app/action/Admin/Event/Report/RegistDocument.php"
+			],
+			[
+				"registblok",
+				"app/action/Admin/Event/Report/RegistBlock.php"
+			],
+			[
+				"popup/report/do",
+				"template/ja_JP/popup/report/document.tpl"
+			],
+			[
+				"registdocu",
+				"app/action/Admin/Event/Report/RegistDocument.php"
+			],
+			[
+				"report/input.tpl",
+				"template/ja_JP/admin/event/report/input.tpl"
+			],
+			[
+				"report/list.",
+				"template/ja_JP/admin/event/report/list.tpl"
+			],
+			[
+				"action/popup/repo",
+				"app/action/Popup/Report.php"
+			],
+			[
+				"event",
+				"app/Lv_EventManager.php"
+			],
+			[
+				"popup/repo",
+				"template/ja_JP/popup/report/report.tpl"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 251.0,
+	"status_bar_visible": true
+}

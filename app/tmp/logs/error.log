@@ -1,0 +1,852 @@
+2013-05-03 10:04:52 Error: [MissingActionException] Action UsersController::initdb() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'initdb',
+)
+Request URL: /users/initdb
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cmsc1/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cmsc1/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-03 10:21:14 Error: [MissingControllerException] Controller class PootsController could not be found.
+Exception Attributes: array (
+  'class' => 'PootsController',
+  'plugin' => NULL,
+)
+Request URL: /poots
+Stack Trace:
+#0 /var/www/cmsc1/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-03 10:35:23 Error: [MissingControllerException] Controller class PoótController could not be found.
+Exception Attributes: array (
+  'class' => 'PoótController',
+  'plugin' => NULL,
+)
+Request URL: /po%C3%B3t
+Stack Trace:
+#0 /var/www/cmsc1/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-03 11:40:39 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [/var/www/cmsc1/app/Controller/AppController.php, line 39]
+2013-05-03 11:40:39 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /users
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 39, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 39, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 10:17:02 Error: [MissingActionException] Action PostsController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'logout',
+)
+Request URL: /posts/logout
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cmsc1/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cmsc1/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-06 10:36:23 Error: [MissingViewException] View file "/var/www/cmsc1/app/View/posts/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cmsc1/app/View/posts/add.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/View/View.php(468): View->_getViewFileName('/posts/add')
+#1 /var/www/cmsc1/lib/Cake/Controller/Controller.php(948): View->render('/posts/add', NULL)
+#2 /var/www/cmsc1/app/Controller/UsersController.php(49): Controller->render('/posts/add')
+#3 [internal function]: UsersController->login()
+#4 /var/www/cmsc1/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/cmsc1/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cmsc1/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cmsc1/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-05-06 11:22:36 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 9]
+2013-05-06 11:22:36 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 9, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 9, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:23:19 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 9]
+2013-05-06 11:23:19 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 9, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 9, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:23:57 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 9]
+2013-05-06 11:23:57 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 9, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 9, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:24:21 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 10]
+2013-05-06 11:24:21 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:25:37 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 10]
+2013-05-06 11:25:37 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:25:38 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 10]
+2013-05-06 11:25:38 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:25:38 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 10]
+2013-05-06 11:25:38 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:25:39 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 10]
+2013-05-06 11:25:39 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:25:39 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 10]
+2013-05-06 11:25:39 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:25:39 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 10]
+2013-05-06 11:25:39 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:25:39 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 10]
+2013-05-06 11:25:39 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:25:39 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 10]
+2013-05-06 11:25:39 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:25:39 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 10]
+2013-05-06 11:25:39 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:25:39 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 10]
+2013-05-06 11:25:39 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:25:39 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 10]
+2013-05-06 11:25:39 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:25:39 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 10]
+2013-05-06 11:25:39 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:25:39 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 10]
+2013-05-06 11:25:39 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:25:39 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 10]
+2013-05-06 11:25:39 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:25:39 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 10]
+2013-05-06 11:25:39 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:25:39 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 10]
+2013-05-06 11:25:39 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:26:11 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 10]
+2013-05-06 11:26:11 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:26:43 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 10]
+2013-05-06 11:26:43 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:26:44 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 10]
+2013-05-06 11:26:44 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:26:44 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 10]
+2013-05-06 11:26:44 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:26:48 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 10]
+2013-05-06 11:26:48 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /users/logout
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 10, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:27:51 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 11]
+2013-05-06 11:27:51 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 11, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 11, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:28:14 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 11]
+2013-05-06 11:28:14 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 11, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 11, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:28:15 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 11]
+2013-05-06 11:28:15 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 11, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 11, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:28:15 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 11]
+2013-05-06 11:28:15 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 11, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 11, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:28:15 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 11]
+2013-05-06 11:28:15 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 11, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 11, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:29:19 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 11]
+2013-05-06 11:29:19 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 11, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 11, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:29:50 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 11]
+2013-05-06 11:29:50 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 11, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 11, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:31:59 Error: Fatal Error (1): Class 'AclComponent' not found in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 8]
+2013-05-06 11:31:59 Error: [FatalErrorException] Class 'AclComponent' not found
+Request URL: /posts
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'AclCompo...', '/var/www/cmsc1/...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AclCompo...', '/var/www/cmsc1/...', 8, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'AclCompo...', '/var/www/cmsc1/...', 8, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 11:38:40 Error: Fatal Error (4): syntax error, unexpected '}', expecting T_STRING or T_VARIABLE or '{' or '$' in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 18]
+2013-05-06 11:38:40 Error: [FatalErrorException] syntax error, unexpected '}', expecting T_STRING or T_VARIABLE or '{' or '$'
+Request URL: /
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 18, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 18, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 14:08:12 Error: Fatal Error (1): Call to undefined method CmsAclComponent::AclNode() in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 22]
+2013-05-06 14:08:12 Error: [FatalErrorException] Call to undefined method CmsAclComponent::AclNode()
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cmsc1/...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cmsc1/...', 22, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cmsc1/...', 22, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 14:08:32 Error: [MissingTableException] Table acl_nodes for model AclNode was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'acl_nodes',
+  'class' => 'AclNode',
+  'ds' => 'default',
+)
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Model/Model.php(3237): Model->setSource('acl_nodes')
+#1 /var/www/cmsc1/lib/Cake/Model/AclNode.php(63): Model->getDataSource()
+#2 /var/www/cmsc1/app/Controller/Component/CmsAclComponent.php(22): AclNode->node(Array)
+#3 /var/www/cmsc1/app/Controller/TestsController.php(13): CmsAclComponent->check(Array, 'controllers/Pos...')
+#4 [internal function]: TestsController->beforeFilter(Object(CakeEvent))
+#5 /var/www/cmsc1/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#6 /var/www/cmsc1/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/cmsc1/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#8 /var/www/cmsc1/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TestsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cmsc1/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-05-06 14:09:29 Error: [MissingTableException] Table acl_nodes for model AclNode was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'acl_nodes',
+  'class' => 'AclNode',
+  'ds' => 'default',
+)
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Model/Model.php(3237): Model->setSource('acl_nodes')
+#1 /var/www/cmsc1/lib/Cake/Model/AclNode.php(63): Model->getDataSource()
+#2 /var/www/cmsc1/app/Controller/Component/CmsAclComponent.php(22): AclNode->node(Array)
+#3 /var/www/cmsc1/app/Controller/TestsController.php(13): CmsAclComponent->check(Array, 'controllers/Pos...')
+#4 [internal function]: TestsController->beforeFilter(Object(CakeEvent))
+#5 /var/www/cmsc1/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#6 /var/www/cmsc1/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/cmsc1/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#8 /var/www/cmsc1/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TestsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cmsc1/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-05-06 14:20:46 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 25]
+2013-05-06 14:20:46 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 25, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 25, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 14:21:14 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 27]
+2013-05-06 14:21:14 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 27, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 27, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 14:31:10 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/cmsc1/app/Controller/Component/CmsAclComponent.php, line 43]
+2013-05-06 14:31:10 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 43, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 43, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 15:11:05 Error: [MissingViewException] View file "/var/www/cmsc1/app/View/Tests/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cmsc1/app/View/Tests/index.ctp',
+)
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/cmsc1/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /var/www/cmsc1/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /var/www/cmsc1/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TestsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cmsc1/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-05-06 15:11:55 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /var/www/cmsc1/lib/Cake/View/View.php(835): HelperCollection->__isset('Auth')
+#2 /var/www/cmsc1/app/View/Tests/index.ctp(2): View->__get('Auth')
+#3 /var/www/cmsc1/lib/Cake/View/View.php(947): include('/var/www/cmsc1/...')
+#4 /var/www/cmsc1/lib/Cake/View/View.php(909): View->_evaluate('/var/www/cmsc1/...', Array)
+#5 /var/www/cmsc1/lib/Cake/View/View.php(471): View->_render('/var/www/cmsc1/...')
+#6 /var/www/cmsc1/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#7 /var/www/cmsc1/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#8 /var/www/cmsc1/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TestsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cmsc1/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-05-06 15:17:36 Error: Fatal Error (4): syntax error, unexpected ';', expecting T_FUNCTION in [/var/www/cmsc1/app/View/Helper/AccessHelper.php, line 18]
+2013-05-06 15:17:36 Error: [FatalErrorException] syntax error, unexpected ';', expecting T_FUNCTION
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 18, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 18, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 15:17:58 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/var/www/cmsc1/app/View/Helper/AccessHelper.php, line 18]
+2013-05-06 15:17:58 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cmsc1/...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cmsc1/...', 18, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cmsc1/...', 18, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 15:18:14 Error: Fatal Error (1): Call to a member function isLoggedIn() on a non-object in [/var/www/cmsc1/app/View/Tests/index.ctp, line 3]
+2013-05-06 15:18:14 Error: [FatalErrorException] Call to a member function isLoggedIn() on a non-object
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cmsc1/...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cmsc1/...', 3, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cmsc1/...', 3, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 15:18:44 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /var/www/cmsc1/lib/Cake/View/View.php(835): HelperCollection->__isset('Auth')
+#2 /var/www/cmsc1/app/View/Tests/index.ctp(4): View->__get('Auth')
+#3 /var/www/cmsc1/lib/Cake/View/View.php(947): include('/var/www/cmsc1/...')
+#4 /var/www/cmsc1/lib/Cake/View/View.php(909): View->_evaluate('/var/www/cmsc1/...', Array)
+#5 /var/www/cmsc1/lib/Cake/View/View.php(471): View->_render('/var/www/cmsc1/...')
+#6 /var/www/cmsc1/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#7 /var/www/cmsc1/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#8 /var/www/cmsc1/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TestsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cmsc1/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-05-06 15:21:03 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /var/www/cmsc1/lib/Cake/View/View.php(835): HelperCollection->__isset('Auth')
+#2 /var/www/cmsc1/app/View/Tests/index.ctp(4): View->__get('Auth')
+#3 /var/www/cmsc1/lib/Cake/View/View.php(947): include('/var/www/cmsc1/...')
+#4 /var/www/cmsc1/lib/Cake/View/View.php(909): View->_evaluate('/var/www/cmsc1/...', Array)
+#5 /var/www/cmsc1/lib/Cake/View/View.php(471): View->_render('/var/www/cmsc1/...')
+#6 /var/www/cmsc1/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#7 /var/www/cmsc1/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#8 /var/www/cmsc1/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TestsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cmsc1/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-05-06 15:21:32 Error: Fatal Error (1): Call to a member function user() on a non-object in [/var/www/cmsc1/app/View/Helper/AccessHelper.php, line 19]
+2013-05-06 15:21:32 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cmsc1/...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cmsc1/...', 19, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cmsc1/...', 19, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 15:21:56 Error: Fatal Error (1): Call to a member function user() on a non-object in [/var/www/cmsc1/app/View/Helper/AccessHelper.php, line 19]
+2013-05-06 15:21:56 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cmsc1/...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cmsc1/...', 19, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cmsc1/...', 19, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 15:23:12 Error: Fatal Error (1): Call to a member function user() on a non-object in [/var/www/cmsc1/app/View/Helper/AccessHelper.php, line 19]
+2013-05-06 15:23:12 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cmsc1/...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cmsc1/...', 19, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cmsc1/...', 19, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 15:23:14 Error: Fatal Error (1): Call to a member function user() on a non-object in [/var/www/cmsc1/app/View/Helper/AccessHelper.php, line 19]
+2013-05-06 15:23:14 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cmsc1/...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cmsc1/...', 19, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cmsc1/...', 19, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 15:23:14 Error: Fatal Error (1): Call to a member function user() on a non-object in [/var/www/cmsc1/app/View/Helper/AccessHelper.php, line 19]
+2013-05-06 15:23:14 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cmsc1/...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cmsc1/...', 19, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cmsc1/...', 19, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 15:23:14 Error: Fatal Error (1): Call to a member function user() on a non-object in [/var/www/cmsc1/app/View/Helper/AccessHelper.php, line 19]
+2013-05-06 15:23:14 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cmsc1/...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cmsc1/...', 19, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cmsc1/...', 19, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 15:38:56 Error: Fatal Error (1): Call to undefined method View::user() in [/var/www/cmsc1/lib/Cake/Controller/Component/AuthComponent.php, line 768]
+2013-05-06 15:38:56 Error: [FatalErrorException] Call to undefined method View::user()
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cmsc1/...', 768)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cmsc1/...', 768, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cmsc1/...', 768, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 15:39:49 Error: Fatal Error (1): Call to undefined method View::user() in [/var/www/cmsc1/lib/Cake/Controller/Component/AuthComponent.php, line 768]
+2013-05-06 15:39:49 Error: [FatalErrorException] Call to undefined method View::user()
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cmsc1/...', 768)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cmsc1/...', 768, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cmsc1/...', 768, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 16:33:14 Error: Fatal Error (1): Class 'AclComponent' not found in [/var/www/cmsc1/app/Controller/Component/AccessComponent.php, line 7]
+2013-05-06 16:33:14 Error: [FatalErrorException] Class 'AclComponent' not found
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'AclCompo...', '/var/www/cmsc1/...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AclCompo...', '/var/www/cmsc1/...', 7, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'AclCompo...', '/var/www/cmsc1/...', 7, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 16:33:15 Error: Fatal Error (1): Class 'AclComponent' not found in [/var/www/cmsc1/app/Controller/Component/AccessComponent.php, line 7]
+2013-05-06 16:33:15 Error: [FatalErrorException] Class 'AclComponent' not found
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'AclCompo...', '/var/www/cmsc1/...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AclCompo...', '/var/www/cmsc1/...', 7, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'AclCompo...', '/var/www/cmsc1/...', 7, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 16:33:29 Error: Fatal Error (1): Class 'AclComponent' not found in [/var/www/cmsc1/app/Controller/Component/AccessComponent.php, line 7]
+2013-05-06 16:33:29 Error: [FatalErrorException] Class 'AclComponent' not found
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'AclCompo...', '/var/www/cmsc1/...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AclCompo...', '/var/www/cmsc1/...', 7, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'AclCompo...', '/var/www/cmsc1/...', 7, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 16:33:30 Error: Fatal Error (1): Class 'AclComponent' not found in [/var/www/cmsc1/app/Controller/Component/AccessComponent.php, line 7]
+2013-05-06 16:33:30 Error: [FatalErrorException] Class 'AclComponent' not found
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'AclCompo...', '/var/www/cmsc1/...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AclCompo...', '/var/www/cmsc1/...', 7, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'AclCompo...', '/var/www/cmsc1/...', 7, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 16:34:06 Error: Fatal Error (1): Class 'AclComponent' not found in [/var/www/cmsc1/app/Controller/Component/AccessComponent.php, line 7]
+2013-05-06 16:34:06 Error: [FatalErrorException] Class 'AclComponent' not found
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'AclCompo...', '/var/www/cmsc1/...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AclCompo...', '/var/www/cmsc1/...', 7, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'AclCompo...', '/var/www/cmsc1/...', 7, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 16:34:06 Error: Fatal Error (1): Class 'AclComponent' not found in [/var/www/cmsc1/app/Controller/Component/AccessComponent.php, line 7]
+2013-05-06 16:34:06 Error: [FatalErrorException] Class 'AclComponent' not found
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'AclCompo...', '/var/www/cmsc1/...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AclCompo...', '/var/www/cmsc1/...', 7, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'AclCompo...', '/var/www/cmsc1/...', 7, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 16:35:35 Error: Fatal Error (1): Call to undefined method AccessComponent::user() in [/var/www/cmsc1/app/Controller/Component/AccessComponent.php, line 22]
+2013-05-06 16:35:35 Error: [FatalErrorException] Call to undefined method AccessComponent::user()
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cmsc1/...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cmsc1/...', 22, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cmsc1/...', 22, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 16:36:37 Error: Fatal Error (1): Call to a member function user() on a non-object in [/var/www/cmsc1/app/Controller/Component/AccessComponent.php, line 14]
+2013-05-06 16:36:37 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cmsc1/...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cmsc1/...', 14, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cmsc1/...', 14, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 16:36:49 Error: Fatal Error (1): Call to a member function user() on a non-object in [/var/www/cmsc1/app/Controller/Component/AccessComponent.php, line 14]
+2013-05-06 16:36:49 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cmsc1/...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cmsc1/...', 14, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cmsc1/...', 14, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 16:36:49 Error: Fatal Error (1): Call to a member function user() on a non-object in [/var/www/cmsc1/app/Controller/Component/AccessComponent.php, line 14]
+2013-05-06 16:36:49 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cmsc1/...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cmsc1/...', 14, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cmsc1/...', 14, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 16:36:49 Error: Fatal Error (1): Call to a member function user() on a non-object in [/var/www/cmsc1/app/Controller/Component/AccessComponent.php, line 14]
+2013-05-06 16:36:49 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cmsc1/...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cmsc1/...', 14, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cmsc1/...', 14, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 16:36:50 Error: Fatal Error (1): Call to a member function user() on a non-object in [/var/www/cmsc1/app/Controller/Component/AccessComponent.php, line 14]
+2013-05-06 16:36:50 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cmsc1/...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cmsc1/...', 14, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cmsc1/...', 14, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 16:36:50 Error: Fatal Error (1): Call to a member function user() on a non-object in [/var/www/cmsc1/app/Controller/Component/AccessComponent.php, line 14]
+2013-05-06 16:36:50 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cmsc1/...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cmsc1/...', 14, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cmsc1/...', 14, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 16:36:50 Error: Fatal Error (1): Call to a member function user() on a non-object in [/var/www/cmsc1/app/Controller/Component/AccessComponent.php, line 14]
+2013-05-06 16:36:50 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cmsc1/...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cmsc1/...', 14, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cmsc1/...', 14, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 16:36:50 Error: Fatal Error (1): Call to a member function user() on a non-object in [/var/www/cmsc1/app/Controller/Component/AccessComponent.php, line 14]
+2013-05-06 16:36:50 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cmsc1/...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cmsc1/...', 14, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cmsc1/...', 14, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 16:38:43 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cmsc1/app/Controller/Component/AccessComponent.php, line 14]
+2013-05-06 16:38:43 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cmsc1/...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cmsc1/...', 14, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cmsc1/...', 14, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 16:49:40 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 /var/www/cmsc1/lib/Cake/Controller/Controller.php(635): ComponentCollection->init(Object(TestsController))
+#2 /var/www/cmsc1/lib/Cake/Routing/Dispatcher.php(183): Controller->constructClasses()
+#3 /var/www/cmsc1/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TestsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cmsc1/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-05-06 16:50:19 Error: Fatal Error (1): Call to a member function isLoggedIn() on a non-object in [/var/www/cmsc1/app/Controller/TestsController.php, line 12]
+2013-05-06 16:50:19 Error: [FatalErrorException] Call to a member function isLoggedIn() on a non-object
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cmsc1/...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cmsc1/...', 12, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cmsc1/...', 12, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-06 16:50:41 Error: Fatal Error (1): Call to a member function isLoggedIn() on a non-object in [/var/www/cmsc1/app/Controller/TestsController.php, line 12]
+2013-05-06 16:50:41 Error: [FatalErrorException] Call to a member function isLoggedIn() on a non-object
+Request URL: /tests
+Stack Trace:
+#0 /var/www/cmsc1/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cmsc1/...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cmsc1/...', 12, Array)
+#2 /var/www/cmsc1/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cmsc1/...', 12, Array)
+#3 /var/www/cmsc1/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
